@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-cp {
+    margin-bottom: 1em;
+}
