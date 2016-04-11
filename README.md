@@ -1,3 +1,1 @@
-# discover-bootstrap
-
-Simple Project to learn Bootstrap
+Simple Project to learn Jquery
