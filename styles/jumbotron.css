@@ -1,0 +1,40 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+body {
+    margin: auto;
+}
+
+.jumbotron {
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    background-color: rgb(238, 238, 238);
+    border-radius: 6px;
+    max-width: 1140px;
+    margin: 80px auto 20px auto;
+}
+
+
+/* centered columns styles */
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-table;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+.panel {
+    margin-bottom: 5px;
+}
+
+.q {
+    padding: 10px;
+}

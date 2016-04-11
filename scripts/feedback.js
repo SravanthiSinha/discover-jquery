@@ -1,0 +1,3 @@
+$('#ctaButton').popover({
+    trigger: "hover"
+})
