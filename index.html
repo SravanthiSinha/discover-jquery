@@ -191,6 +191,11 @@
             <a href="#" class="btn btn-primary bg-color-picker bg-cp" id="cp4">Change background color</a>
             <script>
                 $(document).on('ready', function () {
+                    $('#cp4').colorpicker({
+                        align: 'left'
+                    })
+
+                    $('#cp4').colorpicker('reposition');
                     $('#cp4').colorpicker().on('changeColor', function (e) {
                         $('body')[0].style.backgroundColor = e.color.toHex();
                     });
